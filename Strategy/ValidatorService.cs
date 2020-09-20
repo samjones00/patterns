@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Patterns.Strategy.Extensions;
+using Patterns.Common.Extensions;
 using Patterns.Strategy.Interfaces;
 using Patterns.Strategy.Models;
 using Patterns.Strategy.Validators;

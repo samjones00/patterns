@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Patterns.Strategy.Extensions
+namespace Patterns.Common.Extensions
 {
     public static class TypeExtensions
     {

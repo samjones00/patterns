@@ -15,8 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Patterns.Core\Patterns.Common.csproj" />
-    <ProjectReference Include="..\Strategy\Patterns.Strategy.csproj" />
-    <ProjectReference Include="..\Strategy\Patterns.Strategy.csproj" />
+    <ProjectReference Include="..\Patterns.Observer\Patterns.Observer.csproj" />
   </ItemGroup>
 
 </Project>
