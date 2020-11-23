@@ -10,24 +10,32 @@ observer
 ### Interface Segregation Principle
 ### Dependancy Inversion Principle
 
-# Behavioral
+## Creational Patterns
+Abstract Factory
+Builder
+Factory Method
+Prototype
+Singleton
 
-## Strategy Pattern
+## Structural Patterns
+Adapter [./Patterns.Adapter](Adapter)
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
 
-SOLID Principles: Open/Closed Principle
+##Behavioural Patterns
+Chain of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template
+Visitor
 
-## Decorator Pattern
-
-SOLID Principles: Open/Closed Principle, Single Responsibility Principle
-
-## Observer Pattern
-
-## Null Object Pattern
-
-## Chain of Responsibility Pattern
-
-## Command Pattern
-
-# Structural
-
-## Decorator Pattern
