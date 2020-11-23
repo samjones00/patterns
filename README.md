@@ -18,7 +18,7 @@ Prototype
 Singleton
 
 ## Structural Patterns
-Adapter [./Patterns.Adapter](Adapter)
+[Adapter](/Patterns.Adapter)
 Bridge
 Composite
 Decorator
