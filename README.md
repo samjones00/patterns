@@ -12,16 +12,16 @@ observer
 
 ## Creational Patterns
 Abstract Factory
-Builder
-Factory Method
+[Builder](/Patterns.Builder)
+[Factory](/Patterns.Factory)
 Prototype
-Singleton
+[Singleton](/Patterns.Singleton)
 
 ## Structural Patterns
 [Adapter](/Patterns.Adapter)
 Bridge
 Composite
-Decorator
+[Decorator](/Patterns.Decorator)
 Facade
 Flyweight
 Proxy
