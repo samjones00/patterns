@@ -1,14 +1,4 @@
-value holder
-yield
-repo with api
-observer
-
-## Solid 
-### Single Responsibility Principle
-### Open/Closed Principle
-### Liskov Substitution Principle
-### Interface Segregation Principle
-### Dependancy Inversion Principle
+# Coding Patterns
 
 ## Creational Patterns
 * Abstract Factory
@@ -26,7 +16,7 @@ observer
 * Flyweight
 * Proxy
 
-##Behavioural Patterns
+## Behavioural Patterns
 * Chain of Responsibility
 * Command
 * Interpreter
