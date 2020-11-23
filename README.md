@@ -11,11 +11,11 @@ observer
 ### Dependancy Inversion Principle
 
 ## Creational Patterns
-Abstract Factory
-[Builder](/Patterns.Builder)
-[Factory](/Patterns.Factory)
-Prototype
-[Singleton](/Patterns.Singleton)
+* Abstract Factory
+* [Builder](/Patterns.Builder)
+* [Factory](/Patterns.Factory)
+* Prototype
+* [Singleton](/Patterns.Singleton)
 
 ## Structural Patterns
 [Adapter](/Patterns.Adapter)
