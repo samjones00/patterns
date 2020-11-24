@@ -28,3 +28,6 @@
 * Strategy
 * Template
 * Visitor
+
+## And a few more
+* [Specification](/Patterns.Specification)
