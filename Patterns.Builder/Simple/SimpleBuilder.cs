@@ -1,8 +1,10 @@
-﻿namespace Patterns.Builder
+﻿using Patterns.Builder.Models;
+
+namespace Patterns.Builder.Builders
 {
-    public class SimpleOrderBuilder
+    public class SimpleBuilder
     {
-        public string CollectionType { get; set; }
+        public string CollectionType { get; set;}
         public string CustomerTelephoneNumber { get; set; }
         public string CustomerName { get; set; }
         public string StoreName { get; set; }
@@ -12,25 +14,25 @@
             return new SimpleOrder(this);
         }
 
-        public SimpleOrderBuilder AddCustomerName(string name)
+        public SimpleBuilder AddCustomerName(string name)
         {
             CustomerName = name;
             return this;
         }
 
-        public SimpleOrderBuilder AddStoreName(string storeName)
+        public SimpleBuilder AddStoreName(string storeName)
         {
             StoreName = storeName;
             return this;
         }
 
-        public SimpleOrderBuilder AddCustomerTelephoneNumber(string telephoneNumber)
+        public SimpleBuilder AddCustomerTelephoneNumber(string telephoneNumber)
         {
             CustomerTelephoneNumber = telephoneNumber;
             return this;
         }
 
-        public SimpleOrderBuilder AddCollectionType(string collectionType)
+        public SimpleBuilder AddCollectionType(string collectionType)
         {
             CollectionType = collectionType;
             return this;

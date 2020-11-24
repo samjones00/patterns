@@ -1,4 +1,6 @@
-﻿namespace Patterns.Builder
+﻿using Patterns.Builder.Models;
+
+namespace Patterns.Builder.Builders
 {
     public interface IWithCustomerName
     {
@@ -12,18 +14,15 @@
 
     public interface IWithCollectionType
     {
-        ConditionalOrder Finish();
+        ConditionalOrder Build();
     }
 
-
-    public class ConditionalBuilder:IWithCustomerName,IWithCollectionType,IWithStoreName
+    public class ConditionalBuilder : IWithCustomerName, IWithCollectionType, IWithStoreName
     {
-        private string CollectionType { get; set; }
-        private string CustomerTelephoneNumber { get; set; }
         private string CustomerName { get; set; }
         private string StoreName { get; set; }
 
-        public IWithCustomerName Start()
+        public IWithCustomerName Init()
         {
             return new ConditionalBuilder();
         }
@@ -40,14 +39,9 @@
             return this;
         }
 
-        public IWithCollectionType Package()
+        public ConditionalOrder Build()
         {
-            return this;
-        }
-
-        public ConditionalOrder Finish()
-        {
-            return new ConditionalOrder()
+            return new ConditionalOrder
             {
                 CustomerName = CustomerName,
                 StoreName = StoreName

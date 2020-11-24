@@ -1,27 +1,28 @@
-﻿namespace Patterns.Builder
+﻿using System;
+using Patterns.Builder.Builders;
+
+namespace Patterns.Builder
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var order = new SimpleOrderBuilder()
+            var order = new SimpleBuilder()
                 .AddCustomerName("sam")
                 .AddStoreName("london")
                 .AddCollectionType("from store")
                 .AddCustomerTelephoneNumber("12345 67890")
                 .Build();
 
-            var customerName = order.CustomerName;
+            Console.WriteLine(order);
 
             var conditionalOrder = new ConditionalBuilder()
-                .Start()
+                .Init()
                 .AddCustomerName("sam")
                 .AddStoreName("london")
-                .Finish();
+                .Build();
 
-            conditionalOrder.CustomerName = "hi";
-            
-            var storeName = conditionalOrder.StoreName;
+            Console.WriteLine(conditionalOrder);
         }
     }
 }
