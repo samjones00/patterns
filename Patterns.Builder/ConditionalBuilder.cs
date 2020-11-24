@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Patterns.Creational.Builder
+﻿namespace Patterns.Builder
 {
     public interface IWithCustomerName
     {

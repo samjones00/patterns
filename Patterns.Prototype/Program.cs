@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Patterns.Creational.Prototype
+namespace Patterns.Prototype
 {
     class Program
     {

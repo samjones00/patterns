@@ -1,33 +1,31 @@
-value holder
-yield
-repo with api
-observer
+# Coding Patterns
 
-## Solid 
-### Single Responsibility Principle
-### Open/Closed Principle
-### Liskov Substitution Principle
-### Interface Segregation Principle
-### Dependancy Inversion Principle
+## Creational Patterns
+* Abstract Factory
+* [Builder](/Patterns.Builder)
+* [Factory](/Patterns.Factory)
+* [Prototype](/Patterns.Prototype)
+* [Singleton](/Patterns.Singleton)
 
-# Behavioral
+## Structural Patterns
+* [Adapter](/Patterns.Adapter)
+* Bridge
+* Composite
+* [Decorator](/Patterns.Decorator)
+* Facade
+* Flyweight
+* Proxy
 
-## Strategy Pattern
+## Behavioural Patterns
+* Chain of Responsibility
+* Command
+* Interpreter
+* Iterator
+* Mediator
+* Memento
+* [Observer](/Patterns.Observer)
+* State
+* Strategy
+* Template
+* Visitor
 
-SOLID Principles: Open/Closed Principle
-
-## Decorator Pattern
-
-SOLID Principles: Open/Closed Principle, Single Responsibility Principle
-
-## Observer Pattern
-
-## Null Object Pattern
-
-## Chain of Responsibility Pattern
-
-## Command Pattern
-
-# Structural
-
-## Decorator Pattern

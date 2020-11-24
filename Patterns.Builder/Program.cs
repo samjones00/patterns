@@ -1,7 +1,4 @@
-﻿using System;
-using System.Runtime.InteropServices;
-
-namespace Patterns.Creational.Builder
+﻿namespace Patterns.Builder
 {
     class Program
     {
