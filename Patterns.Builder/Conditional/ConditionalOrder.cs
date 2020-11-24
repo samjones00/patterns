@@ -1,4 +1,4 @@
-﻿namespace Patterns.Builder.Models
+﻿namespace Patterns.Builder.Conditional
 {
     public class ConditionalOrder
     {

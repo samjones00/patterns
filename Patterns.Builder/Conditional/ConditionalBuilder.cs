@@ -1,6 +1,4 @@
-﻿using Patterns.Builder.Models;
-
-namespace Patterns.Builder.Builders
+﻿namespace Patterns.Builder.Conditional
 {
     public interface IWithCustomerName
     {

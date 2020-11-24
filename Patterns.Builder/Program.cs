@@ -1,5 +1,6 @@
 ﻿using System;
-using Patterns.Builder.Builders;
+using Patterns.Builder.Conditional;
+using Patterns.Builder.Simple;
 
 namespace Patterns.Builder
 {
@@ -23,6 +24,13 @@ namespace Patterns.Builder
                 .Build();
 
             Console.WriteLine(conditionalOrder);
+
+            var funcBuilder = new FuncBuilder.FuncBuilder();
+            funcBuilder.AddCustomerName("customer name");
+            funcBuilder.AddStoreName("london");
+            var funcOrder = funcBuilder.Build();
+
+            Console.WriteLine(funcOrder);
         }
     }
 }
